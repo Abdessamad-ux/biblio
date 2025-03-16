@@ -1,0 +1,40 @@
+add a condition of this informations of bokks are ready exist888
+
+
+admin must add users
+
+
+
+add party comunity wheir users can descusi about an book or whier they can wrote their resume from yhe book and what didi they learn 
+
+paggination in users books
+
+
+voir messages show them as a pop up
+
+
+add description for books
+
+js design
+ai to generate books:
+
+dark mode
+
+loading page css html 
+
+notification de reservation in the part of user after he make a reservation 
+
+book offer opoped up after access 
+
+
+<?php
+function cnx() {
+    try {
+        $pdo = new PDO("mysql:host=185.98.131.161;dbname=noval2513717", "noval2513717", "12344321abdeA@");
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        return $pdo;
+    } catch (PDOException $e) {
+        die("Erreur de connexion à la base de données: " . $e->getMessage());
+    }
+}
+?>

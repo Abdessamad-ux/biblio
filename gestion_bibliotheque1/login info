@@ -1,0 +1,35 @@
+Nom : abdessamad
+Email contact.abdessamade@gmail.com
+Mote de Passe : abde1234
+Tel : 0689964650
+Adresse : morocco
+
+
+
+
+
+
+----
+oussama@gmail.com
+1234
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if ($_SESSION['is_admin'] == 1) {
+    echo "Welcome, Admin!";
+} else {
+    echo "Access denied. Admin only.";
+}
